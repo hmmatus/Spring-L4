@@ -20,7 +20,7 @@
 		<form:input type="text" name="username" path="username"/><br>
 		
 		<label>Ingrese una clave: </label>
-		<form:input type="text" name="password" path="pass"/>
+		<form:input type="password" name="password" path="pass"/>
 		<form:errors path="pass" cssStyle="color:#E81505;"></form:errors><br><br>	
 		
 		<input type="submit" value="Agregar usuario">
